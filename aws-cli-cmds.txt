@@ -1,0 +1,10 @@
+1. AWS PARAMETERS System Manager
+  -Get param from System Manager - Parameters Store
+  aws ssm get-parameters --name dbusername --region eu-central-1 --output text --query Parameters[].Value
+  aws ssm get-parameters --name dbusername --region eu-central-1 --with-decryption --output text --query Parameters[].Value
+
+  -Export parameter
+  export DBUSERNAME=`aws ssm get-parameters --name dbusername --region eu-central-1 --output text --query Parameters[].Value`
+
+  -Get parametest which start with DB
+  env | grep DB
