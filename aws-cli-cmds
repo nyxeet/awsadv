@@ -1,0 +1,2 @@
+Get param from System Manager - Parameters Store
+aws ssm get-parameters --name dbusername --region eu-central-1 --output text --query Parameters[].Value
