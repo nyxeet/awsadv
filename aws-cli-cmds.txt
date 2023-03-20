@@ -1,4 +1,25 @@
-1. AWS PARAMETERS System Manager
+1. Login by aws cli, and some simple commands
+  -aws configure - set creds of user
+  -aws s3 ls - list of s3 buckets
+  -aws ec2 describe-instances - list all ec2
+
+2. Ubuntu commands
+  -uptime - time 
+  -uname - show info about os
+  -uname -a - show full info
+  -lscpu - info about cpu
+  -echo $PATH - directories where linus will try to find our commands
+  -man -k time - show commands related to time
+  - man uptime - manual about command
+  -whatis uptime - main about command
+  -whereis uptime - where command 
+  -locate uptime - where is command
+  -fg - get back to process
+  -ps - show processes
+  -ls -la -R / - magic hacker
+
+
+3. AWS PARAMETERS System Manager
   -Get param from System Manager - Parameters Store
   aws ssm get-parameters --name dbusername --region eu-central-1 --output text --query Parameters[].Value
   aws ssm get-parameters --name dbusername --region eu-central-1 --with-decryption --output text --query Parameters[].Value
