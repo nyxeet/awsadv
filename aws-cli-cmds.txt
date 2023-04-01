@@ -17,6 +17,54 @@
   -fg - get back to process
   -ps - show processes
   -ls -la -R / - magic hacker
+  -pwd - where i am
+  -more file.txt - show file 
+  -less file.txt - show file
+  -cat file.txt - show file
+  -cp file.txt - copy file
+  -cp -R dir1 dir2 - copy dir with files to another one
+  -mv file1 file2 - rename file
+  -mkdir -p dir5/dir6 - create dir5 and dir6 inside
+  -ln - create duplicate
+  -ln -s - create symbolic link
+  -grep -E "regexp" file - find words in file or files
+  -tar cvzf zipname filename - create bzip file (c - create, v -show files, z - zip, f -file)
+  -tar xvf zipname - extract bzip file (x - extract, f - file)
+  -tar tf zipname - what is inside the archive
+  -zip -R folder - create zip (-R recursively - for folders with files)
+  -ps -aux | grep bash - show all tasks which contain bash
+  -top - show processes
+  -sudo useradd -m username - create user with folder
+  -sudo userdel -r username
+  -sudo groupadd - create group
+  -sudo groupdel - delete group
+  -sudo userMod -ag groupName userName - add user to group
+  -sudo deluser userName groupName - remove user from group
+  -sudo chown userName fileName - change owner of file
+  -sudo chgrp groupName fileName - change group of file
+  -chmod o+x fileName = add x to others group
+  -chmod o-x fileName = remove x to others group
+  -chmod g+x fileName = add x to group permissions
+  -chmod u+x fileName = add x to user permissions
+  -chmod ugo=x fileName = add only x to all permissions
+  -chmod a+x fileName = add x to all permissions
+  -chmod 1777 myDir = add stickyBit (user can remove only his own files even thought he has rights)
+  -chmod 1-7   7 = rwr  1 = --x  4 = r--
+  -ifconfig - show ip address
+  -ip addr show - show ip
+  -route - show adress router's gateway
+  -ping - check connection
+  -host - get ip of website
+  -dig - show ip of website
+  -netstat - show network connection of this computer
+  -apt-get install - download program
+  -apt-get remove - delete program 
+  -dpkg -i - install programm from file
+  -dpkg -r -delete programm from file
+  -yum install - download program (amazon, centos, redhat)
+  -yum remove - delete program (amazon, centos, redhat)
+  -rpm -i - install programm from file(amazon, centos, redhat)
+  -rpm -r -delete programm from file(amazon, centos, redhat)
 
 
 3. AWS PARAMETERS System Manager
