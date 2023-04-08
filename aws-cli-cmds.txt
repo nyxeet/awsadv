@@ -4,13 +4,14 @@
   -aws ec2 describe-instances - list all ec2
 
 2. Ubuntu commands
+  -dir Desktop - show files in dir
   -uptime - time 
   -uname - show info about os
   -uname -a - show full info
   -lscpu - info about cpu
   -echo $PATH - directories where linus will try to find our commands
   -man -k time - show commands related to time
-  - man uptime - manual about command
+  -man uptime - manual about command
   -whatis uptime - main about command
   -whereis uptime - where command 
   -locate uptime - where is command
